@@ -1,8 +1,6 @@
 # SQRA
 
-Semi-Quantitative Risk Assessment (SQRA) for chemical exposure, including industrial hygiene (IH) monitoring and subject matter expert (SME) screening.
-
-This repository contains a browser-based assessment tool for evaluating workplace chemical exposure risks using a semi-quantitative approach. It is designed to support screening and documentation of chemical hazards, exposure factors, risk classification, and follow-up actions such as IH monitoring and SME review.
+SQRA is a lightweight, client-side web application for semi-quantitative assessment of workplace chemical exposures. It lets safety teams record work activities, select or enter chemicals, and evaluate exposure-factor indices to compute a standardized risk score. Based on hazard and exposure inputs, the tool indicates when industrial hygiene (IH) monitoring or subject-matter expert (SME) review is recommended and generates printable/exportable assessment reports for documentation and follow-up. Assessments are stored locally in the browser (IndexedDB); SQRA is intended for screening and internal decision-support and is not a substitute for professional occupational-hygiene advice or regulatory compliance.
 
 ## What this tool does
 
@@ -79,9 +77,7 @@ This project supports semi-quantitative chemical exposure risk screening, especi
 
 ## Repository description
 
-Recommended repository description:
-
-> Semi-Quantitative Risk Assessment for chemical exposure: IH monitoring and SME screening.
+Semi-Quantitative chemical exposure screening and reporting.
 
 ## Summary
 
