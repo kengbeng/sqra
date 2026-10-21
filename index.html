@@ -266,6 +266,7 @@
   <style>.reference-controls{padding-bottom:12px}.reference-controls input{margin-top:8px}@media print{.reference-controls{display:none!important}}</style>
   <style>.reference-browser{width:min(1000px,calc(100% - 24px))}.reference-browser .modal-body{max-height:72vh}.reference-browser label{display:block;margin-top:16px}.reference-browser input{width:100%;margin:6px 0 10px}.reference-browser #reference-browser-count{margin-bottom:10px}.reference-data-table{min-width:640px}.reference-data-table tbody th{background:#fff;color:var(--ink);text-transform:none;letter-spacing:normal;font-size:.86rem;font-weight:600}.reference-browser .table-wrap:focus-visible{outline:2px solid var(--blue);outline-offset:2px}@media print{.reference-browser{display:none!important}}</style>
   <style>.reference-overview{padding:4px 16px 16px}.reference-overview .reference-overview-title{font-size:.95rem;font-weight:600;color:var(--ink)}.reference-actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 8px}.reference-actions .button{min-height:40px;padding:8px 13px;font-size:.85rem;font-weight:600}.reference-subsection{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}.reference-subsection>summary{cursor:pointer;font-weight:600;color:var(--blue)}.reference-subsection p,.reference-advanced-content{margin-top:10px}.reference-load-notice:empty,#reference-import-status:empty{display:none}.reference-overview .reference-workbook-link{margin-top:16px;font-size:.78rem}.reference-load-notice{color:var(--amber)}@media(max-width:620px){.reference-actions .button{flex:0 1 auto;max-width:100%}}</style>
+  <style>.reference-update-guide{margin-top:16px}.reference-update-guide>summary{cursor:pointer;color:var(--blue);font-weight:600}.reference-guide-content{padding-top:10px}.reference-guide-content h4{margin:16px 0 8px;color:var(--ink)}.reference-guide-content ol{padding-left:22px}.reference-guide-content li{margin-bottom:8px}.reference-format-table caption{text-align:left;padding:10px 0;font-weight:600}.reference-format-table tbody th{background:#fff;color:var(--ink);text-transform:none;letter-spacing:normal;font-weight:600;font-size:.82rem}.reference-format-table th,.reference-format-table td{white-space:normal!important;overflow-wrap:anywhere}.reference-format-table code{white-space:normal}.reference-guide-content .table-wrap{margin:12px 0}.reference-guide-content .table-wrap:focus-visible{outline:2px solid var(--blue);outline-offset:2px}</style>
 </head>
 <body>
   <section class="hero"><div class="container hero-grid"><div><h1>Semi-Quantitative Risk Assessment</h1><p class="hero-copy">Assess chemical exposure, identify IH monitoring and statutory medical examination (SME) requirements.</p></div></div></section>
@@ -310,7 +311,43 @@
     <p class="help">The viewer and download contain the reference data currently in use.</p>
     <p id="reference-load-notice" class="reference-load-notice" role="status"></p>
     <details id="reference-warning" class="reference-subsection hidden"><summary id="reference-warning-summary">Reference data checks</summary><p id="reference-data-detail">Checking reference values…</p><p>These source errors are treated as unavailable values, not zero.</p></details>
-    <details class="reference-subsection"><summary>Advanced: use a different reference file</summary><div class="reference-advanced-content"><p id="reference-technical-source"></p><p>Online, the website loads chemical-reference.json automatically. When opened directly from your computer, it uses the built-in copy unless you import a file.</p><p>Import a reference JSON file while in the register. It applies to this session only; reimport after reloading. Importing does not change saved assessments.</p><label for="reference-file">Choose reference JSON</label><input id="reference-file" type="file" accept=".json,application/json"><p id="reference-import-status" role="status" aria-live="polite"></p></div></details>
+    <details class="reference-subsection"><summary>Advanced: use a different reference file</summary><div class="reference-advanced-content"><p id="reference-technical-source"></p><p>Online, the website loads chemical-reference.json automatically. When opened directly from your computer, it uses the built-in copy unless you import a file.</p><p>Import a reference JSON file while in the register. It applies to this session only; reimport after reloading. Importing does not change saved assessments.</p><label for="reference-file">Choose reference JSON</label><input id="reference-file" type="file" accept=".json,application/json"><p id="reference-import-status" role="status" aria-live="polite"></p><details class="reference-update-guide">
+  <summary>How to update reference data</summary>
+  <div class="reference-guide-content">
+    <p>Keep an unchanged backup before editing. Use verified source information. Do not guess missing ratings.</p>
+    <h4>Use a file temporarily</h4>
+    <ol>
+      <li>Select <strong>Download JSON</strong> and save a backup. Edit a copy in a text editor.</li>
+      <li>Update the relevant chemical entries using the formats below. Change <code>version</code> for each revision, for example <code>2024-12-27-r2</code>. Change <code>referenceDate</code> only when the underlying reference source changes.</li>
+      <li>Return to the assessment register. Under <strong>Advanced: use a different reference file</strong>, select <strong>Choose reference JSON</strong> and import the edited file.</li>
+      <li>Check the import message and active version. Use <strong>View reference data</strong> to check the changed entries, then test the affected assessment results before relying on the file.</li>
+    </ol>
+    <p><strong>Session only:</strong> importing does not publish the file or change saved assessments. Reimport after reloading the page. To reassess a saved chemical, select <strong>Apply current reference values</strong> in its editor, review the result, update the chemical and save the assessment.</p>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="Reference JSON field formats">
+      <table class="data-table reference-format-table">
+        <caption>Reference JSON field formats</caption>
+        <thead><tr><th scope="col">Field</th><th scope="col">Required format</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><code>schemaVersion</code></th><td>Keep as <code>1</code>.</td></tr>
+          <tr><th scope="row"><code>version</code></th><td>A unique text label for each revision, in double quotes.</td></tr>
+          <tr><th scope="row"><code>referenceDate</code></th><td>The reference source date as <code>"YYYY-MM-DD"</code>.</td></tr>
+          <tr><th scope="row"><code>name</code></th><td>A unique chemical name, in double quotes.</td></tr>
+          <tr><th scope="row"><code>hazard</code>, <code>vapourIndex</code>, <code>otPelIndex</code></th><td>Whole numbers <code>1</code> to <code>5</code>, or <code>null</code> when unavailable. Do not use zero or put numbers or <code>null</code> in quotes.</td></tr>
+          <tr><th scope="row"><code>medical</code></th><td>Exactly <code>"Required"</code>, <code>"Not Required"</code>, <code>"Not stated"</code> or <code>"Verify"</code>.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Keep the <code>chemicals</code> array and valid JSON punctuation, including commas, brackets and double quotes. Source-error markers such as <code>#REF!</code> need checking against the source; do not replace them with an assumed rating.</p>
+    <h4>Update the shared website: maintainers only</h4>
+    <ol>
+      <li>Complete the import and result checks above. Keep a backup of the currently published reference file.</li>
+      <li>Rename the verified file <code>chemical-reference.json</code>. Replace that file in the SQRA GitHub repository and commit the change. Repository write access is required.</li>
+      <li>Wait for GitHub Pages deployment to succeed. Reload SQRA and check that it uses the website reference file and shows the new version under <strong>Advanced</strong>. Check the changed entries in the viewer.</li>
+    </ol>
+    <p>Routine reference updates do not require editing <code>index.html</code>. The embedded fallback remains a separate, frozen copy. Published reference changes do not automatically update saved assessments.</p>
+  </div>
+</details>
+</div></details>
     <p class="reference-workbook-link">Baseline source: <a href="https://nusu.sharepoint.com/sites/corporate/forms/safety_and_health/Chemical-Safety/Semi-quantitative-risk-assessment-for-chemical-exposure-workbook.xlsx" target="_blank" rel="noopener noreferrer">Original Excel workbook</a> (SharePoint access may be required). Imported files may contain later changes.</p>
   </div></details></div>
   <dialog id="reference-dialog" class="modal reference-browser" aria-labelledby="reference-browser-title"><div class="modal-head"><h2 id="reference-browser-title">Chemical reference data</h2><button type="button" class="icon-button" data-close="reference-dialog" aria-label="Close reference data">×</button></div><div class="modal-body"><p id="reference-browser-source" class="help"></p><p class="help">Read-only reference values, not assessment-specific adjustments. Unavailable values are not zero.</p><label for="reference-search">Search chemicals</label><input type="search" id="reference-search" autocomplete="off"><p id="reference-browser-count" class="help" role="status" aria-live="polite"></p><div class="table-wrap" tabindex="0" role="region" aria-label="All chemical reference values"><table class="data-table reference-data-table"><thead><tr><th scope="col">Chemical</th><th scope="col">Hazard rating</th><th scope="col">Vapour pressure index</th><th scope="col">OT / exposure-limit ratio index</th><th scope="col">SME</th></tr></thead><tbody id="reference-browser-body"></tbody></table></div></div></dialog>
