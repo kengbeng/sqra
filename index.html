@@ -265,6 +265,7 @@
   <style>.record-details{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}.record-details>h3{margin-bottom:12px;font-size:.95rem;color:var(--muted)}.record-details input{min-height:38px;padding:8px 10px}</style>
   <style>.reference-controls{padding-bottom:12px}.reference-controls input{margin-top:8px}@media print{.reference-controls{display:none!important}}</style>
   <style>.reference-browser{width:min(1000px,calc(100% - 24px))}.reference-browser .modal-body{max-height:72vh}.reference-browser label{display:block;margin-top:16px}.reference-browser input{width:100%;margin:6px 0 10px}.reference-browser #reference-browser-count{margin-bottom:10px}.reference-data-table{min-width:640px}.reference-data-table tbody th{background:#fff;color:var(--ink);text-transform:none;letter-spacing:normal;font-size:.86rem;font-weight:600}.reference-browser .table-wrap:focus-visible{outline:2px solid var(--blue);outline-offset:2px}@media print{.reference-browser{display:none!important}}</style>
+  <style>.reference-overview{padding:4px 16px 16px}.reference-overview .reference-overview-title{font-size:.95rem;font-weight:600;color:var(--ink)}.reference-actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 8px}.reference-actions .button{min-height:40px;padding:8px 13px;font-size:.85rem;font-weight:600}.reference-subsection{margin-top:14px;border-top:1px solid var(--line);padding-top:12px}.reference-subsection>summary{cursor:pointer;font-weight:600;color:var(--blue)}.reference-subsection p,.reference-advanced-content{margin-top:10px}.reference-load-notice:empty,#reference-import-status:empty{display:none}.reference-overview .reference-workbook-link{margin-top:16px;font-size:.78rem}.reference-load-notice{color:var(--amber)}@media(max-width:620px){.reference-actions .button{flex:0 1 auto;max-width:100%}}</style>
 </head>
 <body>
   <section class="hero"><div class="container hero-grid"><div><h1>Semi-Quantitative Risk Assessment</h1><p class="hero-copy">Assess chemical exposure, identify IH monitoring and statutory medical examination (SME) requirements.</p></div></div></section>
@@ -302,7 +303,16 @@
 
   <div id="row-actions-popup" class="floating-row-menu" popover="auto" aria-label="Row options"></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <div class="container reference-controls"><details class="user-help"><summary>Reference data</summary><div class="help-content"><p id="reference-data-source" role="status">Loading reference source…</p><p id="reference-data-metadata"></p><p><a id="view-reference-data" href="#reference-dialog" aria-haspopup="dialog">View all reference data</a></p><p>Baseline source: <a href="https://nusu.sharepoint.com/sites/corporate/forms/safety_and_health/Chemical-Safety/Semi-quantitative-risk-assessment-for-chemical-exposure-workbook.xlsx" target="_blank" rel="noopener noreferrer">Original Excel workbook</a> (SharePoint access may be required). Imported files may contain subsequent changes.</p><p id="reference-data-detail">Loading reference data…</p><p>Online: the app loads chemical-reference.json beside this HTML file. Offline: it uses the embedded snapshot unless you import a JSON file below. Import applies only to this session and does not change saved assessments.</p><label for="reference-file">Import reference JSON</label><input id="reference-file" type="file" accept=".json,application/json"></div></details></div>
+  <div class="container reference-controls"><details class="user-help"><summary>Reference data</summary><div class="help-content reference-overview">
+    <p id="reference-data-metadata" class="reference-overview-title">Loading reference data…</p>
+    <p id="reference-data-source" role="status">Loading reference source…</p>
+    <div class="reference-actions"><a id="view-reference-data" class="button secondary" href="#reference-dialog" aria-haspopup="dialog">View reference data</a><button id="download-reference-data" class="button secondary" type="button">Download JSON</button></div>
+    <p class="help">The viewer and download contain the reference data currently in use.</p>
+    <p id="reference-load-notice" class="reference-load-notice" role="status"></p>
+    <details id="reference-warning" class="reference-subsection hidden"><summary id="reference-warning-summary">Reference data checks</summary><p id="reference-data-detail">Checking reference values…</p><p>These source errors are treated as unavailable values, not zero.</p></details>
+    <details class="reference-subsection"><summary>Advanced: use a different reference file</summary><div class="reference-advanced-content"><p id="reference-technical-source"></p><p>Online, the website loads chemical-reference.json automatically. When opened directly from your computer, it uses the built-in copy unless you import a file.</p><p>Import a reference JSON file while in the register. It applies to this session only; reimport after reloading. Importing does not change saved assessments.</p><label for="reference-file">Choose reference JSON</label><input id="reference-file" type="file" accept=".json,application/json"><p id="reference-import-status" role="status" aria-live="polite"></p></div></details>
+    <p class="reference-workbook-link">Baseline source: <a href="https://nusu.sharepoint.com/sites/corporate/forms/safety_and_health/Chemical-Safety/Semi-quantitative-risk-assessment-for-chemical-exposure-workbook.xlsx" target="_blank" rel="noopener noreferrer">Original Excel workbook</a> (SharePoint access may be required). Imported files may contain later changes.</p>
+  </div></details></div>
   <dialog id="reference-dialog" class="modal reference-browser" aria-labelledby="reference-browser-title"><div class="modal-head"><h2 id="reference-browser-title">Chemical reference data</h2><button type="button" class="icon-button" data-close="reference-dialog" aria-label="Close reference data">×</button></div><div class="modal-body"><p id="reference-browser-source" class="help"></p><p class="help">Read-only reference values, not assessment-specific adjustments. Unavailable values are not zero.</p><label for="reference-search">Search chemicals</label><input type="search" id="reference-search" autocomplete="off"><p id="reference-browser-count" class="help" role="status" aria-live="polite"></p><div class="table-wrap" tabindex="0" role="region" aria-label="All chemical reference values"><table class="data-table reference-data-table"><thead><tr><th scope="col">Chemical</th><th scope="col">Hazard rating</th><th scope="col">Vapour pressure index</th><th scope="col">OT / exposure-limit ratio index</th><th scope="col">SME</th></tr></thead><tbody id="reference-browser-body"></tbody></table></div></div></dialog>
   <footer><div class="container footer-line"><span>Semi-Quantitative Risk Assessment</span><span id="reference-data-status" role="status">Loading reference data…</span></div></footer>
 
@@ -451,25 +461,30 @@ $('toggle-chemical-route').onclick=()=>{$('chemical-route').value=$('chemical-ro
     return {schemaVersion:1,version:data.version.trim(),referenceDate:data.referenceDate,chemicals,warnings};
   }
   let activeReferenceDate=EMBEDDED_REFERENCE.referenceDate;
+  function referenceDisplayDate(value){return new Date(value+'T00:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});}
   function showReferenceStatus(source,message=''){
-    const status=$('reference-data-status');status.textContent='Reference data: '+LIBRARY_VERSION+' · '+source+' · '+CHEMICALS.length+' chemicals'+(message?' · '+message:'');
+    const status=$('reference-data-status');status.textContent='Reference data · '+LIBRARY_VERSION+' · '+CHEMICALS.length+' chemicals';
     const origin=source==='embedded offline fallback'?'Embedded fallback stored within this HTML file':source==='external JSON'?'External file: chemical-reference.json':source;
-    $('reference-data-source').textContent='Active source: '+origin;
-    $('reference-data-metadata').textContent='Version: '+LIBRARY_VERSION+' · Reference date: '+activeReferenceDate+' · '+CHEMICALS.length+' chemicals';
+    $('reference-data-source').textContent=source==='external JSON'?"Using the website’s reference file.":source==='embedded offline fallback'?'Using the built-in reference copy.':source.replace('Imported file: ','Using your imported file: ');
+    $('reference-data-metadata').textContent=CHEMICALS.length+' chemicals · Reference date: '+referenceDisplayDate(activeReferenceDate);
+    $('reference-technical-source').textContent='Active source: '+origin+' · Version: '+LIBRARY_VERSION;
+    $('reference-load-notice').textContent=message;
     $('reference-browser-source').textContent=origin+' · Version '+LIBRARY_VERSION+' · Reference date '+activeReferenceDate;
   }
   function applyReferenceData(data,source){
     const checked=validateReferenceData(data);
     CHEMICALS=checked.chemicals;LIBRARY_VERSION=checked.version;activeReferenceDate=checked.referenceDate;chemMap.clear();CHEMICALS.forEach(c=>chemMap.set(c.name.toLowerCase(),c));
-    showReferenceStatus(source,checked.warnings.length?checked.warnings.length+' unavailable source value(s)':'');
-    $('reference-data-detail').textContent='Reference date: '+checked.referenceDate+'. '+(checked.warnings.join(' ')||'All entries passed validation.');
+    showReferenceStatus(source);
+    $('reference-warning-summary').textContent=checked.warnings.length+' source value'+(checked.warnings.length===1?' needs':'s need')+' checking';
+    $('reference-warning').classList.toggle('hidden',!checked.warnings.length);
+    $('reference-data-detail').textContent=checked.warnings.join(' ')||'All entries passed validation.';
     renderReferenceTable();
     return checked;
   }
   async function loadReferenceData(){
     applyReferenceData(EMBEDDED_REFERENCE,'embedded offline fallback');
     if(location.protocol==='file:'){
-      showReferenceStatus('embedded offline fallback','Import the JSON below to use an updated file.');return;
+      showReferenceStatus('embedded offline fallback','To use a newer local file, open Advanced and import it.');return;
     }
     const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),5000);
     try{
@@ -477,8 +492,8 @@ $('toggle-chemical-route').onclick=()=>{$('chemical-route').value=$('chemical-ro
       if(!response.ok)throw Error('Reference file returned HTTP '+response.status+'.');
       applyReferenceData(await response.json(),'external JSON');
     }catch(error){
-      showReferenceStatus('embedded offline fallback','External file unavailable or invalid.');
-      $('reference-data-detail').textContent='Using the embedded '+LIBRARY_VERSION+' snapshot. '+error.message;
+      showReferenceStatus('embedded offline fallback','The website’s reference file could not be loaded. Using the built-in copy.');
+      $('reference-import-status').textContent='External file unavailable or invalid. '+error.message;
     }finally{clearTimeout(timer);}
   }
   $('reference-file').onchange=async event=>{
@@ -487,7 +502,8 @@ $('toggle-chemical-route').onclick=()=>{$('chemical-route').value=$('chemical-ro
       if(current)throw Error('Return to the register before importing reference data.');
       if(file.size>5000000)throw Error('Reference file exceeds 5 MB.');
       applyReferenceData(JSON.parse(await file.text()),'Imported file: '+file.name+' (this session)');renderRegister();
-    }catch(error){$('reference-data-detail').textContent='Import rejected. Existing reference data unchanged. '+error.message;}
+      $('reference-import-status').textContent='Reference file loaded for this session. Saved assessments are unchanged.';
+    }catch(error){$('reference-import-status').textContent='Import rejected. Existing reference data unchanged. '+error.message;}
     input.value='';
   };
   function renderReferenceTable(){
@@ -498,6 +514,8 @@ $('toggle-chemical-route').onclick=()=>{$('chemical-route').value=$('chemical-ro
   }
   $('view-reference-data').onclick=event=>{event.preventDefault();$('reference-search').value='';renderReferenceTable();$('reference-dialog').showModal();$('reference-search').focus();};
   $('reference-search').oninput=renderReferenceTable;
+  function activeReferenceDownload(){return{schemaVersion:1,version:LIBRARY_VERSION,referenceDate:activeReferenceDate,chemicals:CHEMICALS.map(c=>({...c}))};}
+  $('download-reference-data').onclick=()=>exportFile('chemical-reference-'+LIBRARY_VERSION.replace(/[^a-zA-Z0-9._-]/g,'-')+'.json',activeReferenceDownload());
   function currentChemicalReference(){
     const name=$('chemical-name').value.trim().toLowerCase();
     if(savedChemicalReference&&name!==savedChemicalReference.name.toLowerCase())savedChemicalReference=null;
