@@ -1,0 +1,4376 @@
+{
+  "schemaVersion": 1,
+  "version": "2024-12-27",
+  "referenceDate": "2024-12-27",
+  "chemicals": [
+    {
+      "name": "0-Methylcyclohexanone",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1,1,2-Tetrachloro-2,2-difluoroethane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1,1-Trichloroethane (Methyl chloroform)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1,2,2-Tetrachloro-1,2-difluoroethane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1,2,2-Tetrachloroethane",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1,2-Trichloro-1,2,2-trifluoroethane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1,2-Trichloroethane",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1-Dichloro-1-nitroethane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1-Dichloroethane (Ethylidene chloride)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,1-Dimethylhydrazine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,2,3-Trichloropropane",
+      "hazard": 4,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,2,4-Trichlorobenzene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,2-Dichloroethylene (Acetylene dichloride)",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,3-Butadiene",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,3-Dichloro-5,5-dimethyl hydantoin",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,3-Dichloropropene",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,4-Dichloro-2-butene",
+      "hazard": 4,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1,6-Hexanediamine",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1-Chloro-1-nitropropane",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "1-Nitropropane",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2,2-Dichloropropionic acid",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2,4,6-Trinitrotoluene (TNT)*",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2,6-Di-tert-butyl-p-cresol",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Aminopyridine",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Butoxyethanol (EGBE)",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Chloroacetophenone (Phenacyl chloride)",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Chloropropionic acid",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Diethylaminoethanol",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Ethoxyethanol (EGEE)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Ethoxyethyl acetate (EGEEA)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Hydroxypropyl acrylate",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Methoxyethyl acetate (Ethylene glycol methyl ethyl acetate, EGMEA)",
+      "hazard": 4,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Methylcyclopentadienyl manganese tricarbonyl, as Mn",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Methyoxyethanol (EGME)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-N-Dibutylaminoethanol",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "2-Nitropropane",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "4,4’-methylene bis (2-chloroaniline) [MOCA]",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "4,4’-Methylene dianiline",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "4,4’-Thiobis (6-tert-butyl-m-cresol)",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "4-Methoxyphenol",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "4-Vinylcyclohexene",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetaldehyde",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetic acid",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetic anhydride",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetone",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetone cyanohydrin",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetonitrile",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetophenone",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acetylene tetrabromide",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acrolein",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acrylamide",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acrylic acid",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Acrylonitrile",
+      "hazard": 4,
+      "vapourIndex": 4,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Adipic acid",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Adiponitrile",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aldrin",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Allyl alcohol",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Allyl chloride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Allyl glycidyl ether (AGE)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Allyl propyl disulfide",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aluminium Alkyls, as Al",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aluminium Metal dust",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aluminium oxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aluminium Pyro powders, as Al",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aluminium Soluble salts, as Al",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aluminium Welding fumes, as Al",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Amitrole",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ammonia",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ammonium chloride fume",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ammonium perfluorooctanoate",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ammonium sulfamate",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Aniline",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Anisidine",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Antimony and compounds, as Sb",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Antimony trioxide, as Sb",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Arsenic, elemental and inorganic compounds, as As",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Arsine",
+      "hazard": 5,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Asbestos (all forms)",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Asphalt (petroleum) fumes",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Atrazine",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Azinphos-methyl",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "B-Chloroprene (2-Chloro-1,3-butadiene)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Barium sulfate",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Barium, soluble compounds, as Ba",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Benomyl",
+      "hazard": 4,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Benzene",
+      "hazard": 5,
+      "vapourIndex": 4,
+      "otPelIndex": 4,
+      "medical": "Required"
+    },
+    {
+      "name": "Benzoyl peroxide",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Benzyl chloride",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Beryllium and compounds, as Be",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Biphenyl",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "bis (Chloromethyl) ether",
+      "hazard": 5,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Bismuth telluride, Se-doped",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Bismuth telluride, Undoped",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Borates, tetra sodium salts, Anhydrous",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Borates, tetra sodium salts, Decahydrate",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Borates, tetra sodium salts, Pentahydrate",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Boron oxide",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Boron tribromide",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Boron trifluoride",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Bromacil",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Bromine",
+      "hazard": 5,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Bromine pentafluoride",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Bromoform",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Butane",
+      "hazard": 1,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Butyl mercaptan (Butanethiol)",
+      "hazard": 1,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cadmium, as Cd, (compounds)",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Cadmium, as Cd, (elemental)",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Calcium carbonate (Limestone, Marble)",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium chromate, as Cr",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium cyanamide",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium cyanide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium hydroxide",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium oxide",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium silicate",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Calcium sulfate",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Camphor",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Caprolactam Dust",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Caprolactam Vapour",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Captafol",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Captan",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbaryl",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbofuran",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbon black",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbon dioxide",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbon disulfide*",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbon monoxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbon tetrabromide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbon tetrachloride (Tetrachloromethane)",
+      "hazard": 4,
+      "vapourIndex": 4,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Carbonyl fluoride",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Catechol (Pyrocatechol)",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cellulose",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cesium hydroxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlordane",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorinated camphene (Toxaphene)",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorinated diphenyl oxide",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorine dioxide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorine trifluoride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chloroacetaldehyde",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chloroacetone",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chloroacetyl chloride",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorobenzene (Monochlorobenzene)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorobromomethane (Bromochloromethane)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorodifluoromethane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorodiphenyl (42% chlorine)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorodiphenyl (54% chlorine)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chloroform (Trichloromethane)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chloropentafluoroethane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chloropicrin (Trichloronitromethane)",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chlorpyrifos",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Chromium, metal and inorganic compounds, as Cr (Insoluble Cr VI compounds)",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chromium, metal and inorganic compounds, as Cr (Metal and Cr III compounds)",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chromium, metal and inorganic compounds, as Cr (Water-soluble Cr VI compounds)",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Chromyl chloride",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Clopidol",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Coal tar pitch volatiles (Polycylic aromatic hydrocarbons), as benzene solubles",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Coal, respirable dust",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cobalt carbonyl, as Co",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cobalt hydrocarbonyl, as Co",
+      "hazard": null,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cobalt, elemental and inorganic compounds, as Co",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Copper Dusts & mists, as Cu",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Copper Fume",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cotton dust, raw",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Cresol",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Crotonaldehyde",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Crufomate",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Cumene",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyanamide",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyanogen",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyanogen chloride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclohexane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclohexanol",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclohexanone",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclohexene",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclohexylamine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclonite",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclopentadiene",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyclopentane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Cyhexatin (Tricyclo hexyltin)",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "DDT (Dichlorodiphenyltrichloroethane)",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Decaborane",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Demeton",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Di-sec-octyl phthalate (Di (-2-ethylhexyl) phthalate)",
+      "hazard": 5,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diacetone alcohol ((4-Hydroxy-4-methyl-2-pentanone)",
+      "hazard": 4,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diazinon",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Diazomethane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diborane",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dibutyl phenyl phosphate",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dibutyl phosphate",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dibutyl phthalate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dichloroacetylene",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dichlorodifluoromethane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dichloroethyl ether",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dichlorofluoromethane",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dichlorotetrafluoroethane",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dichlorvos",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Dicrotophos",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Dicyclopentadiene",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dicyclopentadienyl iron",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dieldrin",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diethanolamine",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diethyl ketone",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diethyl phthalate",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diethylamine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diethylene triamine",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Difluorodibromomethane",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diglycidyl ether (DGE)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diisobutyl ketone (2,6-Dimethyl-4-heptanone)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diisopropylamine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dimethyl sulfate",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dimethylamine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dimethylaniline (N,N-Dimethylaniline)",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dimethylformamide",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dimethylphthalate",
+      "hazard": 1,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dinitolmide (3,5-Dinitro-o-toluamide)",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dinitro-o-cresol",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dinitrobenzene",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dinitrotoluene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dioxane",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dioxathion",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Diphenylamine",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dipropyl ketone",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Dipropylene glycol methyl ether",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diquat Respirable dust",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Diquat Total dust",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Disulfiram",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Disulfoton",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Diuron",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Divinyl benzene",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Emery",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Endosulfan",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Endrin",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Enflurane",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Epichlorohydrin (1-Chloro-2, 3-epoxypropane)",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "EPN (Ethyl p-nitrophenyl thionobenzenephosphonate)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Ethanol (Ethyl alcohol)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethanolamine",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethion",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Ethyl acetate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl acrylate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl amyl ketone (5-Methyl-3-heptanone)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl benzene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl bromide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl butyl ketone (3-Heptanone)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl chloride",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl ether (Diethyl ether)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl formate",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl mercaptan (Ethanethiol)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethyl silicate",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylamine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylene chlorohydrin",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylene dichloride (1,2-Dichloroethane)",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylene glycol",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylene glycol dinitrate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylene oxide",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylenediamine (1,2-Diaminoethane)",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylenimine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ethylidene norbornene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Fenamiphos",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Fensulfothion",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Fenthion",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Ferbam",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ferrovanadium dust",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Fibrous glass dust",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Fluorides, as F",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Fluorine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Fonofos",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Formaldehyde",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Formalin (37%)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Formalin (4-10%)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Formamide",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Formic acid",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Furfural",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Furfuryl alcohol*",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Gasoline",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Germanium tetrahydride",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Glutaraldehyde",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Glycerin mist",
+      "hazard": 1,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Glycidol (2,3-Epoxy-1-propanol)",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Grain dust (oat, wheat, barley)",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Graphite, respirable dust",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hafnium",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Halothane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Heptachlor and Heptachlor epoxide",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Heptane",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexachlorobenzene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexachlorobutadiene",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexachlorocyclopentadiene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexachloroethane",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexachloronaphthalene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexafluoroacetone",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexamethylene diisocyanate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexane (n-Hexane)",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexane (Other isomers)",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hexylene glycol",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrazine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen bromide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen chloride",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen cyanide",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen fluoride",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen peroxide",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen selenide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogen sulfide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydrogenated terphenyls",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Hydroquinone (Dihydroxy benzene)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Indene",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Indium and compounds, as In",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Iodine",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Iodoform",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Iron oxide dust & fume, as Fe",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Iron pentacarbonyl, as Fe",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Iron salts, soluble, as Fe",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isoamyl acetate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isoamyl alcohol",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isobutyl acetate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isobutyl alcohol",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isooctyl alcohol",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isophorone",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isophorone diisocyanate",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isoproproxyethanol",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isopropyl acetate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isopropyl alcohol",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isopropyl ether",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isopropyl glycidyl ether (IGE)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Isopropylamine",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Kaolin, respirable dust",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ketene",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "L.P.G. (Liquefied petroleum gas)",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Lead arsenate",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Lead chromate as Cr",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Lead chromate as Pb",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Lead, inorganic dusts and fumes, as Pb",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Lindane",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Lithium hydride",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "m-Phthalodinitrile",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "m-Xylene, α-α 1-diamine",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Magnesite",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Magnesium oxide fume",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Malathion",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Maleic anhydride",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Manganese cyclopentadienyl tricarbonyl, as Mn",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Manganese, as Mn Dust and compounds",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Manganese, as Mn Fume",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Mercury Alkyl compounds",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Mercury Aryl compounds",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Mercury Inorganic forms* eg. metalic mercury",
+      "hazard": 5,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Mesityl oxide",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methacrylic acid",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methanol (Methyl alcohol)",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methomyl",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methoxychlor",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl 2-cyanoacrylate",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl acetate",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl acetylene (Propyne)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl acetylene-propadiene mixture (MAPP)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl acrylate",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl bromide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl chloride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl demeton",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl ethyl ketone (MEK, 2-Butanone)",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl ethyl ketone peroxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl formate",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl hydrazine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl iodide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl isoamyl ketone",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl isobutyl carbinol (Methyl amyl alcohol)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl isobutyl ketone (Hexone)",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl isocyanate",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl isopropyl ketone",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl mercaptan (Methanethiol)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl methacrylate",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl n-amyl ketone (2-Heptanone)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl n-butyl ketone (2-Hexanone)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl parathion",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 3,
+      "medical": "Required"
+    },
+    {
+      "name": "Methyl propyl ketone (2-Pentanone)",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl silicate",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methyl-tert butyl ether",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylacrylonitrile",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylal (Dimethoxymethane)",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylamine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylcyclohexane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylcyclohexanol",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylene bis (4-cyclo-hexylisocyanate)",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylene bisphenyl isocyanate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Methylene chloride (Dichloromethane)",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Metribuzin",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Mevinphos (Phosdrin)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Mica, respirable dust",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Mineral wool fiber",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Molybdenum, as Mo Insoluble compounds",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Molybdenum, as Mo Soluble compounds",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Monocrotophos",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Morpholine",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "N,N-Dimethylacetamide",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Amyl acetate",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Butanol",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Butyl acetate",
+      "hazard": 1,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Butyl acrylate",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Butyl glycidyl ether (BGE)",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Butyl lactate",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Butylamine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "N-Ethylmorpholine",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "N-Isopropylaniline",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "N-Methyl aniline",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Propyl acetate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Propyl alcohol",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Propyl nitrate",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "n-Valeraldehyde",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Naled (Dimethyl-1,2-dibromo-2,2 dichloroethyl phosphate)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Naphtha",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Naphthalene*",
+      "hazard": 4,
+      "vapourIndex": 1,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nickel carbonyl, as Ni",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nickel Insoluble compounds, as Ni",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nickel Metal",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nickel Soluble compounds, as Ni",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nickel sulfide, as Ni",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nicotine*",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitrapyrin (2-Chloro-6-(trichloromethyl) pyridine)",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitric acid",
+      "hazard": 4,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitric oxide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitrobenzene",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitroethane",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitrogen dioxide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitrogen trifluoride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitroglycerin (NG)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitromethane",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nitrous oxide",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nonane",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Nuisance Particulate",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "o-Chlorobenzylidene malononitrile",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "o-Chlorostyrene",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "o-Chlorotoluene",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "o-Dichlorobenzene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "o-sec-Butylphenol",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Octachloronaphthalene",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Octane",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Oil Mist, mineral",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Osmium tetroxide, as Os",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Oxalic acid",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Oxygen difluoride",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ozone",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "p-Dichlorobenzene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "p-Nitroaniline",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "p-Nitrochlorobenzene",
+      "hazard": 2,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "p-tert-Butyl toluene",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Paraffin wax fume",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Paraquat, Respirable dust",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Paraquat, Total dust",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Parathion",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Required"
+    },
+    {
+      "name": "Pentaborane",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pentachloronaphthalene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pentachloronitrobenzene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pentachlorophenol",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pentaerythritol",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pentane",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Perchloroethylene (Tetrachloroethylene)",
+      "hazard": 4,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Required"
+    },
+    {
+      "name": "Perchloromethyl mercaptan",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Perchloryl fluoride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Perfluoroisobutylene",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Perlite",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenol",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenothiazine",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenyl ether",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenyl glycidyl ether (PGE)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenyl mercaptan",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenylenediamine",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenylhydrazine",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phenylphosphine",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phorate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Phosgene",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphine",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphoric acid",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphorus",
+      "hazard": 4,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphorus oxychloride",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphorus pentachloride",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphorus pentasulfide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phosphorus trichloride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Phthalic anhydride",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Picloram",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Picric acid (2,4,6-Trinitrophenol)",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pindone (2-Pivalyl-1,3-indandione)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Piperazine dihydrochloride",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Platinum Metal",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Platinum Soluble salts, as Pt",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Portland cement",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Potassium cyanide",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Potassium hydroxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propargyl alcohol",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propionic acid",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propoxur",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propylene dichloride (1,2-Dichloropropane)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propylene glycol dinitrate",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propylene glycol monomethyl ether",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propylene imine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Propylene oxide (1,2-Epoxypropane)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pyrethrum",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Pyridine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Quinone",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Resorcinol",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Rhodium Insoluble compounds, as Rh",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Rhodium Metal",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Rhodium Soluble compounds, as Rh",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Ronnel",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Rotenone",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 4,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Rouge",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "sec-Amyl acetate",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "sec-Butanol",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "sec-Butyl acetate",
+      "hazard": 1,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "sec-Hexyl acetate",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Selenium and compounds, as Se",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Selenium hexafluoride",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sesone",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silica-Amorphous Diatomaceous earth uncalcined)",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silica-Amorphous Precipitated silica",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silica-Amorphous Silica gel",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silica-Amorphous Silica, fume, respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silica-Amorphous Silica, fused, respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silica-Crystalline Cristobalite, respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Silica-Crystalline Quartz, respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Silica-Crystalline Tridymite, respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Silica-Crystalline Tripoli, respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Silicon",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silicon carbide",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silicon tetrahydride",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silver Metal",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Silver Soluble compounds, as Ag",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Soapstone Respirable dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Soapstone Total dust",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sodium azide as Hydrazoic acid",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sodium bisulfite",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sodium cyanide",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sodium fluoroacetate",
+      "hazard": 4,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sodium hydroxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sodium metabisulfite",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Starch",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Stearates",
+      "hazard": 1,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Stibine",
+      "hazard": 4,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Stoddard solvent",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Strontium chromate",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Strychnine",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Styrene, monomer (Phenylethylene, Vinyl benzene)",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Subtilisins",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sucrose",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfometuron methyl",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfotep",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Sulfur dioxide",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfur hexafluoride",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfur monochloride",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfur pentafluoride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfur tetrafluoride",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfuric acid",
+      "hazard": 4,
+      "vapourIndex": 1,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulfuryl fluoride",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Sulprofos",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Talc",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tantalum, metal and oxide, as Ta",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tellurium and compounds, as Te",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tellurium hexafluoride",
+      "hazard": 2,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Temephos",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "TEPP (Tetraethyl pyrophosphate)",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Terephthalic acid",
+      "hazard": null,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Terphenyls",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "tert-Butanol",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "tert-Butyl acetate",
+      "hazard": 2,
+      "vapourIndex": 4,
+      "otPelIndex": 2,
+      "medical": "Not Required"
+    },
+    {
+      "name": "tert-Butyl chromate, as CrO3",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tetrachloronaphthalene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tetraethyl lead, as Pb*",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Tetrahydrofuran",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tetramethyl lead, as Pb*",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Tetramethyl succinonitrile",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tetranitromethane",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tetrasodium pyrophosphate",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tetryl (2,4,6-Trinitrophenyl methylnitramine)",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Thallium, elemental and soluble compounds, as Ti",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Thioglycolic acid",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Thionyl chloride",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Thiram",
+      "hazard": null,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tin Metal",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tin Organic compounds, as Sn*",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tin Oxide inorganic compounds, as Sn",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Titanium dioxide",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Toluene (Toluol)*",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Toluene-2,4-diisocyanate (TDI)",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": 5,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Toluidine",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tributyl phosphate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trichloroacetic acid",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trichloroethylene",
+      "hazard": 4,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Required"
+    },
+    {
+      "name": "Trichlorofluoromethane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trichloronaphthalene",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Triethanolamine",
+      "hazard": 2,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Triethylamine",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trifluorobromomethane",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trimellitic anhydride",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trimethyl benzene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trimethyl phosphate",
+      "hazard": 4,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Trimethylamine",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Triorthocresyl phosphate",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Triphenyl amine",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Triphenyl phosphate",
+      "hazard": 3,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tungsten, as W Insoluble compounds",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Tungsten, as W Soluble compounds",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Turpentine",
+      "hazard": 2,
+      "vapourIndex": 3,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Uranium Soluble & Insoluble compounds, as U",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vanadium pentoxide Respirable dust or fume",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vegetable oil mists",
+      "hazard": 2,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vinyl acetate",
+      "hazard": 3,
+      "vapourIndex": 4,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vinyl bromide",
+      "hazard": 4,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vinyl chloride (Chloroethylene)",
+      "hazard": 5,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Required"
+    },
+    {
+      "name": "Vinyl cyclohexene dioxide",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vinyl toluene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 3,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Vinylidene chloride (1,1-Dichloroethylene)",
+      "hazard": 3,
+      "vapourIndex": 5,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Warfarin",
+      "hazard": 4,
+      "vapourIndex": 1,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Welding fumes",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Wood dust Hard wood",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Wood dust Soft wood",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Xylene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Xylidine (dimethylaminobenzene)",
+      "hazard": 3,
+      "vapourIndex": 2,
+      "otPelIndex": 1,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Yttrium metal and compounds, as Y",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Zinc chloride fume",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Zinc chromates, as Cr",
+      "hazard": 5,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Zinc oxide Dust",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Zinc oxide Fume",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "Zirconium and compounds, as Zr",
+      "hazard": 3,
+      "vapourIndex": null,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    },
+    {
+      "name": "α-Methyl styrene",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": "#REF!",
+      "medical": "Not Required"
+    },
+    {
+      "name": "β-Propiolactone",
+      "hazard": 3,
+      "vapourIndex": 3,
+      "otPelIndex": null,
+      "medical": "Not Required"
+    }
+  ]
+}
+
